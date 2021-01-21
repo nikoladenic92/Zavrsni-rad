@@ -1,0 +1,117 @@
+*{
+    margin:0; padding:0;
+}
+.naslovna_logo{
+    float:left;
+
+}
+  #logo, #korpa1, #kontakt1{
+    width: 80px;
+    height:80px;
+    margin-left: 20px;
+}  
+#korpa_s{
+    width: 50px;
+    height:50px;
+    
+}
+.kontakt {
+    float:right;
+    margin-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+    height:3em;
+    
+}
+.header{
+    background-color: rgba(148, 106, 228, 0.966);
+    height:5em;
+    margin-bottom: 2px;
+    background: url("header_back.jpg") no-repeat center/cover;
+}
+.srednji_div{
+    display:inline-block;
+    text-align: center;
+  
+    color:white;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 30%;
+    height:2em;
+}
+#s_proizvodi{
+    width:250px;
+    height:60px;
+}
+.sredina{
+    height:200vh;
+    background: url("pozadina.jpg") no-repeat center/cover;
+    
+}
+footer{
+    background-color:grey;
+    height:5em; 
+    font-size: 30px;
+    margin-top: 1px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+}
+.proizvod{
+    float:left; margin:1em;
+    height:300px; width:200px;
+    padding:1em;
+    border: 2px solid black;
+}
+.proizvod .slika{
+    width:100%; height:200px; 
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.proizvod .naziv{
+    height:100px;
+}
+.proizvod .naziv h3{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.div2{
+    height: 1200px;
+    width:15%;
+    float: left;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div3{
+    height:1200px;
+    width: 85%;
+    float: right;
+    margin: 0;
+    box-sizing: border-box;
+}
+#proizvod{
+    border: 2px solid black;
+} 
+.meni{
+    font-weight: 900;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.meni2{
+    color:rgb(201, 17, 17);
+    font-weight: 700;
+    font-size:20px;
+}
+#ikonica{
+    height: 40px;
+    width:40px;
+}
+.cena{
+    font-weight:700;
+}
